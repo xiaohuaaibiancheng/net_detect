@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>后台管理系统-HTML5后台管理系统</title>
+<meta name="keywords"  content="设置关键词..." />
+<meta name="description" content="设置描述..." />
+<meta name="author" content="bootstrapMB" />
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<link rel="icon" href="images/icon/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="../static/css/style.css" />
+<script src="../static/javascript/jquery.js"></script>
+<script src="../static/javascript/plug-ins/customScrollbar.min.js"></script>
+<script src="../static/javascript/plug-ins/echarts.min.js"></script>
+<script src="../static/javascript/plug-ins/layerUi/layer.js"></script>
+<script src="../static/editor/ueditor.config.js"></script>
+<script src="../static/editor/ueditor.all.js"></script>
+<script src="../static/javascript/plug-ins/pagination.js"></script>
+<script src="../static/javascript/public.js"></script>
+
+<script>
+    $(document).ready(function() {
+        // 添加点击事件来获取 AI 分析
+        $('#getAiAnalysis').click(function() {
+            // 初始化进度条宽度为0%
+            var progressBar = $('.progress-bar');
+            var width = 0;
+
+            // 开始进度条动画
+            var intervalId = setInterval(function() {
+                if (width >= 100) {
+                    clearInterval(intervalId);
+                } else {
+                    width++;
+                    progressBar.css('width', width + '%');
+                }
+            }, 200); // 每200毫秒增加1%
+
+            // 发送 AJAX 请求
+            $.ajax({
+                url: '/get-ai-analysis',
+                type: 'GET',
+                success: function(data) {
+                    // 当成功获取数据后，更新 API 响应区域的内容
+                    $('.api-response p').text(data);
+
+                    // 停止进度条动画
+                    clearInterval(intervalId);
+                },
+                error: function() {
+                    alert('Failed to get AI analysis.');
+
+                    // 如果请求失败，同样需要停止进度条动画
+                    clearInterval(intervalId);
+                }
+            });
+        });
+    });
+</script>
+<style>
+    .progress-container {
+    height: 20px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #4caf50; /* 绿色 */
+    width: 0%;
+}
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #f4f4f4;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    h1 {
+        text-align: center;
+        color: #333;
+        margin-top: 20px;
+    }
+    h2 {
+        text-align: center;
+        color: #333;
+        margin-top: 20px;
+    }
+    .report-data, .api-response {
+        text-align: center;
+        border: 1px solid #ddd;
+        padding: 20px;
+        margin-top: 20px;
+        background: #fefefe;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .report-data h1, .api-response h2 {
+        margin-top: 0;
+        color: #333;
+    }
+
+    .report-data strong {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .api-response p {
+        white-space: pre-wrap;
+    }
+
+    .progress-container {
+        height: 20px;
+        background-color: #f3f3f3;
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+        margin: 20px 0;
+    }
+
+    .progress-bar {
+        height: 100%;
+        background-color: #4caf50; /* 绿色 */
+        width: 0%;
+        transition: width 0.5s ease-in-out;
+    }
+
+    button {
+        padding: 10px 20px;
+        background-color: #4caf9d;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    button:hover {
+        background-color: #45a088;
+    }
+</style>
+<script>
+    function exportPDF() {
+        window.location.href = '/export-pdf';
+    }
+</script>
+</head>
+<body>
+<div class="main-wrap">
+    <div class="side-nav">
+        <div class="side-logo">
+            <div class="logo">
+                <span class="logo-ico">
+                    <i class="i-l-1"></i>
+                    <i class="i-l-2"></i>
+                    <i class="i-l-3"></i>
+                </span>
+                <strong>网络安全智能分析及溯源系统</strong>
+            </div>
+        </div>
+
+        <nav class="side-menu content mCustomScrollbar" data-mcs-theme="minimal-dark">
+            <h2>
+                <a href="{{ url_for('home')}}" class="InitialPage"><i class="icon-dashboard"></i>主页</a>
+            </h2>
+            <ul>
+                <li>
+                    <dl>
+                        <dt>
+                            <i class="icon-inbox"></i>流量采集<i class="icon-angle-right"></i>
+                        </dt>
+                        <dd>
+                            <a href="{{ url_for('button_page')}}">实时采集流量</a>
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>
+                            <i class="icon-table"></i>威胁检测与分析<i class="icon-angle-right"></i>
+                        </dt>
+                        <dd>
+                            <a href="{{ url_for('table_page')}}">流量判别</a>
+                        </dd>
+                        <dd>
+                            <a href="">溯源威胁流量IP</a>
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>
+                            <i class="icon-bar-chart"></i>可视化展示判别结果<i class="icon-angle-right"></i>
+                        </dt>
+                        <dd>
+                            <a href="{{ url_for('echarts_page')}}">安全威胁报告图表</a>
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>
+                            <i class="icon-laptop"></i>安全建议模块<i class="icon-angle-right"></i>
+                        </dt>
+                        <dd>
+                            <a href="{{ url_for('text_panel_page')}}">生成安全建议</a>
+                        </dd>
+                    </dl>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    </div>
+    <div class="content-wrap">
+        <header class="top-hd">
+            <div class="hd-lt">
+                <a class="icon-reorder"></a>
+            </div>
+            <div class="hd-rt">
+                <ul>
+                    <li>
+                        <a href="{{ url_for('home')}}" target="_blank"><i class="icon-home"></i>返回首页</a>
+                    </li>
+                    <li>
+                        <a><i class="icon-user"></i>管理员:<em>WUT</em></a>
+                    </li>
+                    <li>
+                        <a href="{{ url_for('login')}}" id="JsSignOut"><i class="icon-signout"></i>安全退出</a>
+                    </li>
+                    <li>
+                        <button onclick="exportPDF()">导出PDF</button>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <main class="main-cont content mCustomScrollbar">
+            <div class="page-wrap">
+                <section class="page-hd">
+                    <header>
+                        <h2 class="title">安全建议</h2>
+                        <p class="title-description">
+                            由百度千帆AI大模型根据安全威胁报告生成
+                        </p>
+                    </header>
+                    <hr>
+                </section>
+                <div class="threat-report">
+                    <div class="report-data">
+                        <h1>Report Data</h1>
+                        {% for key, value in report_data.items() %}
+                            <strong>{{ key }}:</strong> {{ value }}<br>
+                        {% endfor %}
+                    </div>
+    <div class="api-response">
+        <h2>AI Analysis and Recommendations</h2>
+        <p></p> <!-- 动态填充 -->
+        <button id="getAiAnalysis">Get AI Suggestions</button>
+    </div>
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="btm-ft">
+            <p class="clear">
+            </p>
+        </footer>
+    </div>
+</div>
+</body>
+</html>

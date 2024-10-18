@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>后台管理系统-HTML5后台管理系统</title>
+<meta name="keywords"  content="设置关键词..." />
+<meta name="description" content="设置描述..." />
+<meta name="author" content="bootstrapMB" />
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<link rel="icon" href="images/icon/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="../static/css/style.css" />
+<style>
+    #sendEmailBtn {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    #sendEmailBtn:hover {
+        background-color: #0056b3;
+        transform: scale(1.05);
+    }
+
+    #sendEmailBtn:active {
+        background-color: #004080;
+        transform: scale(1);
+    }
+    #MCLabel {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 26px;
+        color: rgb(116, 123, 116);
+        border: none;
+        transition: all 0.3s ease;
+    }
+</style>
+<script src="../static/javascript/jquery.js"></script>
+<script src="../static/javascript/plug-ins/customScrollbar.min.js"></script>
+<script src="../static/javascript/plug-ins/echarts.min.js"></script>
+<script src="../static/javascript/plug-ins/layerUi/layer.js"></script>
+<script src="../static/editor/ueditor.config.js"></script>
+<script src="../static/editor/ueditor.all.js"></script>
+<script src="../static/javascript/plug-ins/pagination.js"></script>
+<script src="../static/javascript/public.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        fetch('/most_common_label', {
+            method: 'POST'
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.status === 'error') {
+                alert(data.message);
+            } else {
+                document.getElementById('mostCommonLabel').innerText = data.most_common_label;
+                let labelCounts = data.label_counts;
+                let tbody = document.querySelector("tbody");
+                tbody.innerHTML = ""; // 清空原有表格内容
+                Object.keys(labelCounts).forEach((label, index) => {
+                    let row = `<tr class="cen">
+                                    <td>#${index}</td>
+                                    <td class="lt"><a href="#">"${label}"</a></td>
+                                    <td>${labelCounts[label]}</td>
+                                </tr>`;
+                    tbody.innerHTML += row;
+                });
+            }
+        })
+        .catch(error => console.error('Error:', error));
+
+        // Add event listener for the send email button
+        document.getElementById('sendEmailBtn').addEventListener('click', function() {
+            fetch('/send_mail', { 
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({})
+            })
+            .then(response => {
+                if (response.ok) {
+                    return response.json(); // 确保JSON解析只在请求成功时进行
+                } else {
+                    throw new Error('Network response was not ok.');
+                }
+            })
+            .then(data => {
+                alert(data.message);
+            })
+            .catch(error => {
+                alert('邮件发送失败！');
+                console.error('Error:', error);
+            });
+        });
+    });
+</script>
+    
+</head>
+<body>
+<div class="main-wrap">
+    <div class="side-nav">
+        <div class="side-logo">
+            <div class="logo">
+                <span class="logo-ico">
+                    <i class="i-l-1"></i>
+                    <i class="i-l-2"></i>
+                    <i class="i-l-3"></i>
+                </span>
+                <strong>网络安全智能分析及溯源系统</strong>
+            </div>
+        </div>
+
+        <nav class="side-menu content mCustomScrollbar" data-mcs-theme="minimal-dark">
+            <h2>
+                <a href="{{ url_for('home')}}" class="InitialPage"><i class="icon-dashboard"></i>主页</a>
+            </h2>
+            <ul>
+                <li>
+                    <dl>
+                        <dt>
+                            <i class="icon-inbox"></i>流量采集<i class="icon-angle-right"></i>
+                        </dt>
+                        <dd>
+                            <a href="{{ url_for('button_page')}}">实时采集流量</a>
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>
+                            <i class="icon-table"></i>威胁检测与分析<i class="icon-angle-right"></i>
+                        </dt>
+                        <dd>
+                            <a href="{{ url_for('table_page')}}">流量判别</a>
+                        </dd>
+                        <dd>
+                            <a href="{{ url_for('IPsouce_page')}}">溯源威胁流量IP</a>
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>
+                            <i class="icon-bar-chart"></i>可视化展示判别结果<i class="icon-angle-right"></i>
+                        </dt>
+                        <dd>
+                            <a href="{{ url_for('echarts_page')}}">安全威胁报告图表</a>
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>
+                            <i class="icon-laptop"></i>安全建议模块<i class="icon-angle-right"></i>
+                        </dt>
+                        <dd>
+                            <a href="{{ url_for('text_panel_page')}}">生成安全建议</a>
+                        </dd>
+                    </dl>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="content-wrap">
+        <header class="top-hd">
+            <div class="hd-lt">
+                <a class="icon-reorder"></a>
+            </div>
+            <div class="hd-rt">
+                <ul>
+                    <li>
+                        <a href="{{ url_for('home')}}" target="_blank"><i class="icon-home"></i>返回首页</a>
+                    </li>
+                    <li>
+                        <a><i class="icon-user"></i>管理员:<em>WUT</em></a>
+                    </li>
+                    <li>
+                        <a href="{{ url_for('login')}}" id="JsSignOut"><i class="icon-signout"></i>安全退出</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <main class="main-cont content mCustomScrollbar">
+            <div class="page-wrap">
+                <!-- 开始::内容 -->
+                <section class="page-hd">
+                    <header>
+                        <h2 class="title">检测流量</h2>
+                        <p class="title-description">
+                            使用深度学习框架测试实时抓取的流量包，检测是否存在网络威胁；若存在则分析安全威胁的攻击类型
+                        </p>
+                    </header>
+                    <hr>
+                </section>
+                <div> 
+                    <button id="sendEmailBtn" class="btn btn-primary">发送邮件</button>
+                </div>
+                <div>
+                    <p id="MCLabel">最常见的标签:<span id="mostCommonLabel"></span></p>
+                </div>
+                <table class="table table-bordered table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th>编码id</th>
+                            <th>预测标签</th>
+                            <th>标签计数</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- 预测结果将动态插入到这里 -->
+                    </tbody>
+                </table>
+                <!-- 结束::内容 -->
+            </div>
+        </main>
+        <footer class="btm-ft">
+            <p class="clear"></p>
+        </footer>
+    </div>
+</div>
+</body>
+</html>

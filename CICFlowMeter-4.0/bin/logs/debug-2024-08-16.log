@@ -1,0 +1,2241 @@
+2024-08-16 17:45:37 INFO  cic.cs.unb.ca.ifm.Cmd    You select: temp\pcap\output_663acf48-2707-4262-99e0-3e4213d2d5ff.pcap
+2024-08-16 17:45:37 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: temp\csv
+2024-08-16 17:45:37 INFO  cic.cs.unb.ca.ifm.Cmd    CICFlowMeter received 1 pcap file
+2024-08-16 17:45:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2024-08-16 17:45:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 11 flow
+2024-08-16 17:45:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 15 flow
+2024-08-16 17:45:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 16 flow
+2024-08-16 17:45:37 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,48,48) range.
+JMemory: JMemory@16945ee8232class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=16530)
+********************************************************************************
+0000:*bc 09 1b a9  c4 f0 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 3d                       .........=      
+
+
+2024-08-16 17:45:37 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,56,56) range.
+JMemory: JMemory@16945ee8232class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=16530)
+********************************************************************************
+0000:*2e 10 ae 36  26 6d bc 09  1b a9 c4 f0  08 06 00 01    ...6&m..........
+0010: 08 00 06 04  00 02 bc 09  1b a9 c4 f0  c0 a8 13 3d    ...............=
+0020: 2e 10 ae 36  26 6d c0 a8  13 d0                       ...6&m....      
+
+
+2024-08-16 17:45:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 60 flow
+2024-08-16 17:45:37 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 61 flow
+2024-08-16 17:45:37 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,48,48) range.
+JMemory: JMemory@16945fa1b7aclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=15994)
+********************************************************************************
+0000:*bc 09 1b a9  c4 f0 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 3d                       .........=      
+
+
+2024-08-16 17:45:37 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,56,56) range.
+JMemory: JMemory@16945fa1b7aclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=15994)
+********************************************************************************
+0000:*2e 10 ae 36  26 6d bc 09  1b a9 c4 f0  08 06 00 01    ...6&m..........
+0010: 08 00 06 04  00 02 bc 09  1b a9 c4 f0  c0 a8 13 3d    ...............=
+0020: 2e 10 ae 36  26 6d c0 a8  13 d0                       ...6&m....      
+
+
+2024-08-16 17:45:37 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on temp\pcap\output_663acf48-2707-4262-99e0-3e4213d2d5ff.pcap
+2024-08-16 17:51:21 INFO  cic.cs.unb.ca.ifm.Cmd    You select: temp\pcap\output_8643da6b-77ed-4668-9637-b803a04ead5c.pcap
+2024-08-16 17:51:21 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: temp\csv
+2024-08-16 17:51:21 INFO  cic.cs.unb.ca.ifm.Cmd    CICFlowMeter received 1 pcap file
+2024-08-16 17:51:21 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 4 flow
+2024-08-16 17:51:21 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 5 flow
+2024-08-16 17:51:21 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 8 flow
+2024-08-16 17:51:21 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 9 flow
+2024-08-16 17:51:21 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 12 flow
+2024-08-16 17:51:21 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 14 flow
+2024-08-16 17:51:21 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 15 flow
+2024-08-16 17:51:21 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 15 flow
+2024-08-16 17:51:21 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 17 flow
+2024-08-16 17:51:21 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,48,48) range.
+JMemory: JMemory@1f696caa0c8class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=24088)
+********************************************************************************
+0000:*bc 09 1b a9  c4 f0 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 3d                       .........=      
+
+
+2024-08-16 17:51:21 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,56,56) range.
+JMemory: JMemory@1f696caa0c8class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=24088)
+********************************************************************************
+0000:*2e 10 ae 36  26 6d bc 09  1b a9 c4 f0  08 06 00 01    ...6&m..........
+0010: 08 00 06 04  00 02 bc 09  1b a9 c4 f0  c0 a8 13 3d    ...............=
+0020: 2e 10 ae 36  26 6d c0 a8  13 d0                       ...6&m....      
+
+
+2024-08-16 17:51:21 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 17 flow
+2024-08-16 17:51:21 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 17 flow
+2024-08-16 17:51:21 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 17 flow
+2024-08-16 17:51:21 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 17 flow
+2024-08-16 17:51:21 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 24 flow
+2024-08-16 17:51:21 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 26 flow
+2024-08-16 17:51:21 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 29 flow
+2024-08-16 17:51:21 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 33 flow
+2024-08-16 17:51:21 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 33 flow
+2024-08-16 17:51:21 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 34 flow
+2024-08-16 17:51:21 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 35 flow
+2024-08-16 17:51:21 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 35 flow
+2024-08-16 17:51:21 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 36 flow
+2024-08-16 17:51:21 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 39 flow
+2024-08-16 17:51:21 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 39 flow
+2024-08-16 17:51:21 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 42 flow
+2024-08-16 17:51:21 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,48,48) range.
+JMemory: JMemory@1f696d64d78class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=28520)
+********************************************************************************
+0000:*bc 09 1b a9  c4 f0 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 3d                       .........=      
+
+
+2024-08-16 17:51:21 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,56,56) range.
+JMemory: JMemory@1f696d64d78class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=28520)
+********************************************************************************
+0000:*2e 10 ae 36  26 6d bc 09  1b a9 c4 f0  08 06 00 01    ...6&m..........
+0010: 08 00 06 04  00 02 bc 09  1b a9 c4 f0  c0 a8 13 3d    ...............=
+0020: 2e 10 ae 36  26 6d c0 a8  13 d0                       ...6&m....      
+
+
+2024-08-16 17:51:21 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 61 flow
+2024-08-16 17:51:21 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 62 flow
+2024-08-16 17:51:21 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on temp\pcap\output_8643da6b-77ed-4668-9637-b803a04ead5c.pcap
+2024-08-16 17:55:06 INFO  cic.cs.unb.ca.ifm.Cmd    You select: temp\pcap\output_5b958fd8-5d74-4b23-beed-339136a3ae7a.pcap
+2024-08-16 17:55:06 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: temp\csv
+2024-08-16 17:55:06 INFO  cic.cs.unb.ca.ifm.Cmd    CICFlowMeter received 1 pcap file
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 7 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 8 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 12 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 20 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 20 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 26 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 28 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 42 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 56 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 59 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 60 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 60 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 60 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 84 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 86 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 89 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 99 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 102 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 102 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 103 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 107 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 115 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 139 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 160 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 166 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 165 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 169 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 170 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 169 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 175 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 174 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 175 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 181 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 180 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 180 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 181 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 182 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 183 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 192 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 192 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 193 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 193 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 196 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 195 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 194 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 193 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 192 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 192 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 195 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 196 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 195 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 196 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 195 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 194 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 193 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 193 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 198 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 198 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 197 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 196 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 195 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 194 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 194 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 193 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 194 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 199 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 200 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,48,48) range.
+JMemory: JMemory@1f35f1ebc88class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=15320)
+********************************************************************************
+0000:*bc 09 1b a9  c4 f0 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 3d                       .........=      
+
+
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,56,56) range.
+JMemory: JMemory@1f35f1ebc88class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=15320)
+********************************************************************************
+0000:*2e 10 ae 36  26 6d bc 09  1b a9 c4 f0  08 06 00 01    ...6&m..........
+0010: 08 00 06 04  00 02 bc 09  1b a9 c4 f0  c0 a8 13 3d    ...............=
+0020: 2e 10 ae 36  26 6d c0 a8  13 d0                       ...6&m....      
+
+
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 203 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 204 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 205 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 205 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 206 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 206 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 205 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 205 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 204 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 203 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 203 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 205 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 206 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 206 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 206 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 206 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 206 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 208 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 210 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 209 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 209 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 209 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 210 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 210 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 211 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 220 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 221 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 221 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 221 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 229 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 229 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 230 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 232 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 233 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 232 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 233 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 234 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 234 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 235 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 239 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 242 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 245 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 250 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 249 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 249 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 253 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 257 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 262 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 261 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 266 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 269 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 270 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 271 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 272 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,48,48) range.
+JMemory: JMemory@1f35f3228c4class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=9636)
+********************************************************************************
+0000:*bc 09 1b a9  c4 f0 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 3d                       .........=      
+
+
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,56,56) range.
+JMemory: JMemory@1f35f3228c4class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=9636)
+********************************************************************************
+0000:*2e 10 ae 36  26 6d bc 09  1b a9 c4 f0  08 06 00 01    ...6&m..........
+0010: 08 00 06 04  00 02 bc 09  1b a9 c4 f0  c0 a8 13 3d    ...............=
+0020: 2e 10 ae 36  26 6d c0 a8  13 d0                       ...6&m....      
+
+
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 272 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 273 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 273 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 275 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 275 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 276 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 276 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 280 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 281 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 281 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 280 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 279 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 279 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 278 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 277 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 282 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 282 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 283 flow
+2024-08-16 17:55:06 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on temp\pcap\output_5b958fd8-5d74-4b23-beed-339136a3ae7a.pcap
+2024-08-16 18:02:51 INFO  cic.cs.unb.ca.ifm.Cmd    You select: temp\pcap\output_74a9bf31-614a-407c-88a4-021459cbe03b.pcap
+2024-08-16 18:02:51 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: temp\csv
+2024-08-16 18:02:51 INFO  cic.cs.unb.ca.ifm.Cmd    CICFlowMeter received 1 pcap file
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea4d18class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=2936)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 4a                       .........J      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea4d18class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=2936)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 4c                       .........L      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea4d18class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=2936)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 48                       .........H      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea4f34class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=3476)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 4b                       .........K      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea4f34class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=3476)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 49                       .........I      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea4f34class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=3476)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 4d                       .........M      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea50faclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=3930)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 4c                       .........L      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea50faclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=3930)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 4a                       .........J      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea50faclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=3930)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 4e                       .........N      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea5202class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=4194)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 4d                       .........M      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea5202class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=4194)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 4f                       .........O      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea5202class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=4194)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 4b                       .........K      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea5664class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=5316)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 4e                       .........N      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea5664class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=5316)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 4c                       .........L      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea5664class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=5316)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 50                       .........P      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea5968class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=6088)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 4f                       .........O      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea5968class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=6088)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 4d                       .........M      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea5968class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=6088)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 51                       .........Q      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea657cclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=9180)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 4e                       .........N      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea657cclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=9180)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 50                       .........P      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea657cclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=9180)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 52                       .........R      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea685eclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=9918)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 51                       .........Q      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea685eclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=9918)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 4f                       .........O      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea685eclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=9918)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 53                       .........S      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea6cbeclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=11038)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 50                       .........P      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea6cbeclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=11038)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 52                       .........R      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea6cbeclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=11038)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 54                       .........T      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea6cbeclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=11038)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 53                       .........S      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea6cbeclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=11038)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 51                       .........Q      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea6cbeclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=11038)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 55                       .........U      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea6ee2class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=11586)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 52                       .........R      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea6ee2class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=11586)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 56                       .........V      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea6ee2class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=11586)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 54                       .........T      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 fb 2e 10  ae 36 26 6d* 86 dd 60 01    33.......6&m..`.
+0010: 76 06 00 2f  11 ff fe 80  00 00 00 00  00 00 2c 10    v../..........,.
+0020: ae ff fe 36  26 6d ff 02  00 00 00 00  00 00 00 00    ...6&m..........
+0030: 00 00 00 00  00 fb b0 95  14 e9 00 2f  a6 22 00 00    .........../."..
+0040: 00 00 00 01  00 00 00 00  00 00 0a 5f  6c 79 72 61    ..........._lyra
+0050: 2d 6d 64 6e  73 04 5f 75  64 70 05 6c  6f 63 61 6c    -mdns._udp.local
+0060: 00 00 0c 80  01*                                      .....           
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea7054class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=11956)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 55                       .........U      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea7054class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=11956)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 53                       .........S      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea7054class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=11956)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 57                       .........W      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea7ab8class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=14616)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 54                       .........T      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea7ab8class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=14616)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 56                       .........V      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea7ab8class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=14616)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 58                       .........X      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea7e16class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=15478)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 57                       .........W      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea7e16class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=15478)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 55                       .........U      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea7e16class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=15478)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 59                       .........Y      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea7f68class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=15816)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 58                       .........X      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea7f68class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=15816)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 56                       .........V      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea7f68class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=15816)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 5a                       .........Z      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea8070class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=16080)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 59                       .........Y      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea8070class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=16080)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 57                       .........W      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea8070class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=16080)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 5b                       .........[      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea8070class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=16080)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 58                       .........X      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea8070class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=16080)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 5a                       .........Z      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea8070class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=16080)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 5c                       .........\      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea8070class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=16080)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 5b                       .........[      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea8070class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=16080)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 59                       .........Y      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea8070class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=16080)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 5d                       .........]      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea8b90class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=18928)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 5c                       .........\      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea8b90class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=18928)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 5a                       .........Z      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea8b90class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=18928)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 5e                       .........^      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea8b90class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=18928)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 5d                       .........]      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea8b90class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=18928)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 5b                       .........[      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea8b90class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=18928)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 5f                       ........._      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea901eclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=20094)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 5c                       .........\      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea901eclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=20094)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 5e                       .........^      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea901eclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=20094)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 60                       .........`      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea9c44class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=23204)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 5f                       ........._      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea9c44class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=23204)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 5d                       .........]      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea9c44class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=23204)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 61                       .........a      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea9ebcclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=23836)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 60                       .........`      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea9ebcclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=23836)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 5e                       .........^      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17ea9ebcclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=23836)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 62                       .........b      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17eaa1dcclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=24636)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 5f                       ........._      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17eaa1dcclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=24636)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 61                       .........a      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17eaa1dcclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=24636)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 63                       .........c      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17eaae98class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=27896)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 62                       .........b      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17eaae98class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=27896)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 60                       .........`      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17eaae98class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=27896)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 64                       .........d      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17eab576class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=29654)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 61                       .........a      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17eab576class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=29654)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 63                       .........c      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17eab576class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=29654)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 65                       .........e      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17eab692class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=29938)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 64                       .........d      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17eab692class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=29938)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 62                       .........b      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17eab692class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=29938)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 66                       .........f      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17eab9aaclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=30730)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 63                       .........c      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17eab9aaclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=30730)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 65                       .........e      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17eab9aaclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=30730)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 67                       .........g      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,48,48) range.
+JMemory: JMemory@2bb17eabb26class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=31110)
+********************************************************************************
+0000:*bc 09 1b a9  c4 f0 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 3d                       .........=      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,56,56) range.
+JMemory: JMemory@2bb17eabb26class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=31110)
+********************************************************************************
+0000:*2e 10 ae 36  26 6d bc 09  1b a9 c4 f0  08 06 00 01    ...6&m..........
+0010: 08 00 06 04  00 02 bc 09  1b a9 c4 f0  c0 a8 13 3d    ...............=
+0020: 2e 10 ae 36  26 6d c0 a8  13 d0                       ...6&m....      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17eabb26class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=31110)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 64                       .........d      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17eabb26class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=31110)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 66                       .........f      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17eabb26class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=31110)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 68                       .........h      
+
+
+2024-08-16 18:02:51 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 37 flow
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 37 flow
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17eabfd0class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=32304)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 67                       .........g      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17eabfd0class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=32304)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 65                       .........e      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17eabfd0class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=32304)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 69                       .........i      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f566a2class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=2482)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 66                       .........f      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f566a2class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=2482)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 68                       .........h      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f566a2class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=2482)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 6a                       .........j      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f566a2class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=2482)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 69                       .........i      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f566a2class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=2482)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 67                       .........g      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f566a2class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=2482)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 6b                       .........k      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f56986class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=3222)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 68                       .........h      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f56986class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=3222)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 6a                       .........j      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f56986class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=3222)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 6c                       .........l      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f56df4class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=4356)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 6b                       .........k      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f56df4class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=4356)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 6d                       .........m      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f56df4class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=4356)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 69                       .........i      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f571aeclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=5310)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 6c                       .........l      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f571aeclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=5310)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 6a                       .........j      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f571aeclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=5310)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 6e                       .........n      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f571aeclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=5310)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 6d                       .........m      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f571aeclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=5310)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 6b                       .........k      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f571aeclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=5310)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 6f                       .........o      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f57d3cclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=8268)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 6e                       .........n      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f57d3cclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=8268)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 6c                       .........l      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f57d3cclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=8268)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 70                       .........p      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f57e82class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=8594)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 6f                       .........o      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f57e82class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=8594)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 6d                       .........m      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f57e82class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=8594)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 71                       .........q      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f57e82class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=8594)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 70                       .........p      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f57e82class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=8594)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 6e                       .........n      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f57e82class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=8594)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 72                       .........r      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f58b30class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=11840)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 71                       .........q      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f58b30class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=11840)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 73                       .........s      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f58b30class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=11840)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 6f                       .........o      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f58b30class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=11840)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 72                       .........r      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f58b30class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=11840)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 70                       .........p      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f58b30class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=11840)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 74                       .........t      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f59792class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=15010)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 73                       .........s      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f59792class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=15010)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 71                       .........q      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f59792class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=15010)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 75                       .........u      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 52 flow
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5994eclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=15454)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 74                       .........t      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5994eclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=15454)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 72                       .........r      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5994eclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=15454)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 76                       .........v      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 52 flow
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 52 flow
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f59c28class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=16184)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 73                       .........s      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f59c28class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=16184)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 75                       .........u      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f59c28class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=16184)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 77                       .........w      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f59dceclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=16606)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 76                       .........v      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f59dceclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=16606)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 74                       .........t      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f59dceclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=16606)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 78                       .........x      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 53 flow
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 53 flow
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5a3f2class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=18178)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 77                       .........w      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5a3f2class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=18178)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 75                       .........u      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5a3f2class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=18178)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 79                       .........y      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 53 flow
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 53 flow
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5a760class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=19056)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 78                       .........x      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5a760class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=19056)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 76                       .........v      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5a760class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=19056)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 7a                       .........z      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5b1caclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=21722)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 77                       .........w      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5b1caclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=21722)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 79                       .........y      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5b1caclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=21722)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 7b                       .........{      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5b364class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=22132)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 7a                       .........z      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5b364class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=22132)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 78                       .........x      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5b364class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=22132)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 7c                       .........|      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5b610class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=22816)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 7b                       .........{      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5b610class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=22816)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 79                       .........y      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5b610class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=22816)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 7d                       .........}      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5b9b4class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=23748)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 7c                       .........|      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5b9b4class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=23748)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 7e                       .........~      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5b9b4class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=23748)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 7a                       .........z      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5bab0class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=24000)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 7b                       .........{      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5bab0class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=24000)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 7d                       .........}      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5bab0class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=24000)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 7f                       ..........      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5bab0class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=24000)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 7c                       .........|      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5bab0class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=24000)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 7e                       .........~      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5bab0class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=24000)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 80                       ..........      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 58 flow
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5c722class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=27186)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 7d                       .........}      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5c722class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=27186)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 81                       ..........      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5c722class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=27186)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 7f                       ..........      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5d39aclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=30378)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 7e                       .........~      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5d39aclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=30378)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 80                       ..........      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5d39aclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=30378)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 82                       ..........      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5d4a2class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=30642)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 7f                       ..........      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5d4a2class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=30642)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 81                       ..........      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5d4a2class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=30642)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 83                       ..........      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5d5aaclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=30906)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 80                       ..........      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5d5aaclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=30906)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 82                       ..........      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5d5aaclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=30906)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 84                       ..........      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,48,48) range.
+JMemory: JMemory@2bb17f5d5aaclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=30906)
+********************************************************************************
+0000:*bc 09 1b a9  c4 f0 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 3d                       .........=      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,56,56) range.
+JMemory: JMemory@2bb17f5d5aaclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=30906)
+********************************************************************************
+0000:*2e 10 ae 36  26 6d bc 09  1b a9 c4 f0  08 06 00 01    ...6&m..........
+0010: 08 00 06 04  00 02 bc 09  1b a9 c4 f0  c0 a8 13 3d    ...............=
+0020: 2e 10 ae 36  26 6d c0 a8  13 d0                       ...6&m....      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5d5aaclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=30906)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 83                       ..........      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5d5aaclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=30906)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 81                       ..........      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5d5aaclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=30906)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 85                       ..........      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5d5aaclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=30906)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 84                       ..........      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5d5aaclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=30906)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 82                       ..........      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5d5aaclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=30906)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 86                       ..........      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5e710class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=2576)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 83                       ..........      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5e710class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=2576)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 85                       ..........      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,60,60) range.
+JMemory: JMemory@2bb17f5e710class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=2576)
+********************************************************************************
+0000:*ff ff ff ff  ff ff 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 87                       ..........      
+
+
+2024-08-16 18:02:52 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on temp\pcap\output_74a9bf31-614a-407c-88a4-021459cbe03b.pcap
+2024-08-16 18:09:28 INFO  cic.cs.unb.ca.ifm.Cmd    You select: temp\pcap\output_32bb36e7-8bbb-4aa5-af4d-0bf33d41dd46.pcap
+2024-08-16 18:09:28 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: temp\csv
+2024-08-16 18:09:28 INFO  cic.cs.unb.ca.ifm.Cmd    CICFlowMeter received 1 pcap file
+2024-08-16 18:09:28 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 30 flow
+2024-08-16 18:09:28 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 31 flow
+2024-08-16 18:09:28 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 31 flow
+2024-08-16 18:09:28 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 39 flow
+2024-08-16 18:09:28 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,48,48) range.
+JMemory: JMemory@266c5d3c87aclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=27530)
+********************************************************************************
+0000:*bc 09 1b a9  c4 f0 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 3d                       .........=      
+
+
+2024-08-16 18:09:28 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,56,56) range.
+JMemory: JMemory@266c5d3c87aclass org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=27530)
+********************************************************************************
+0000:*2e 10 ae 36  26 6d bc 09  1b a9 c4 f0  08 06 00 01    ...6&m..........
+0010: 08 00 06 04  00 02 bc 09  1b a9 c4 f0  c0 a8 13 3d    ...............=
+0020: 2e 10 ae 36  26 6d c0 a8  13 d0                       ...6&m....      
+
+
+2024-08-16 18:09:28 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 49 flow
+2024-08-16 18:09:28 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 49 flow
+2024-08-16 18:09:28 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 48 flow
+2024-08-16 18:09:28 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 47 flow
+2024-08-16 18:09:28 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 61 flow
+2024-08-16 18:09:28 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 72 flow
+2024-08-16 18:09:28 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 74 flow
+2024-08-16 18:09:28 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 74 flow
+2024-08-16 18:09:28 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,48,48) range.
+JMemory: JMemory@266c5d5ed94class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=4180)
+********************************************************************************
+0000:*bc 09 1b a9  c4 f0 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 3d                       .........=      
+
+
+2024-08-16 18:09:28 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,56,56) range.
+JMemory: JMemory@266c5d5ed94class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=4180)
+********************************************************************************
+0000:*2e 10 ae 36  26 6d bc 09  1b a9 c4 f0  08 06 00 01    ...6&m..........
+0010: 08 00 06 04  00 02 bc 09  1b a9 c4 f0  c0 a8 13 3d    ...............=
+0020: 2e 10 ae 36  26 6d c0 a8  13 d0                       ...6&m....      
+
+
+2024-08-16 18:09:28 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 75 flow
+2024-08-16 18:09:28 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on temp\pcap\output_32bb36e7-8bbb-4aa5-af4d-0bf33d41dd46.pcap
+2024-08-16 18:19:01 INFO  cic.cs.unb.ca.ifm.Cmd    You select: temp\pcap\output_636fc2c1-38ca-4d8b-a9a5-2c91a7baf20b.pcap
+2024-08-16 18:19:01 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: temp\csv
+2024-08-16 18:19:01 INFO  cic.cs.unb.ca.ifm.Cmd    CICFlowMeter received 1 pcap file
+2024-08-16 18:19:01 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,48,48) range.
+JMemory: JMemory@1a9219342c8class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=296)
+********************************************************************************
+0000:*bc 09 1b a9  c4 f0 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 3d                       .........=      
+
+
+2024-08-16 18:19:01 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,56,56) range.
+JMemory: JMemory@1a9219342c8class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=296)
+********************************************************************************
+0000:*2e 10 ae 36  26 6d bc 09  1b a9 c4 f0  08 06 00 01    ...6&m..........
+0010: 08 00 06 04  00 02 bc 09  1b a9 c4 f0  c0 a8 13 3d    ...............=
+0020: 2e 10 ae 36  26 6d c0 a8  13 d0                       ...6&m....      
+
+
+2024-08-16 18:19:01 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 27 flow
+2024-08-16 18:19:02 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 fb bc 09  1b a9 c4 f0* 86 dd 60 00    33............`.
+0010: e7 4d 00 33  11 01 fe 80  00 00 00 00  00 00 d8 98    .M.3............
+0020: 36 f5 a1 dd  b0 ad ff 02  00 00 00 00  00 00 00 00    6...............
+0030: 00 00 00 00  00 fb 14 e9  14 e9 00 33  cb a0 00 00    ...........3....
+0040: 00 00 00 01  00 00 00 00  00 00 0e 5f  6d 69 63 72    ..........._micr
+0050: 6f 73 6f 66  74 5f 6d 63  63 04 5f 74  63 70 05 6c    osoft_mcc._tcp.l
+0060: 6f 63 61 6c  00 00 0c 80  01*                         ocal.....       
+
+
+2024-08-16 18:19:02 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 46 flow
+2024-08-16 18:19:02 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 46 flow
+2024-08-16 18:19:02 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    null
+********************************************************************************
+0000:*33 33 00 00  00 fb bc 09  1b a9 c4 f0* 86 dd 60 00    33............`.
+0010: e7 4d 00 33  11 01 fe 80  00 00 00 00  00 00 d8 98    .M.3............
+0020: 36 f5 a1 dd  b0 ad ff 02  00 00 00 00  00 00 00 00    6...............
+0030: 00 00 00 00  00 fb 14 e9  14 e9 00 33  cc 20 00 00    ...........3. ..
+0040: 00 00 00 01  00 00 00 00  00 00 0e 5f  6d 69 63 72    ..........._micr
+0050: 6f 73 6f 66  74 5f 6d 63  63 04 5f 74  63 70 05 6c    osoft_mcc._tcp.l
+0060: 6f 63 61 6c  00 00 0c 00  01*                         ocal.....       
+
+
+2024-08-16 18:19:02 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 47 flow
+2024-08-16 18:19:02 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 47 flow
+2024-08-16 18:19:02 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 49 flow
+2024-08-16 18:19:02 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 49 flow
+2024-08-16 18:19:02 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 50 flow
+2024-08-16 18:19:02 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 50 flow
+2024-08-16 18:19:02 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 52 flow
+2024-08-16 18:19:02 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 52 flow
+2024-08-16 18:19:02 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 54 flow
+2024-08-16 18:19:02 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,48,48) range.
+JMemory: JMemory@1a921a1ab52class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=19970)
+********************************************************************************
+0000:*bc 09 1b a9  c4 f0 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 3d                       .........=      
+
+
+2024-08-16 18:19:02 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,56,56) range.
+JMemory: JMemory@1a921a1ab52class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=19970)
+********************************************************************************
+0000:*2e 10 ae 36  26 6d bc 09  1b a9 c4 f0  08 06 00 01    ...6&m..........
+0010: 08 00 06 04  00 02 bc 09  1b a9 c4 f0  c0 a8 13 3d    ...............=
+0020: 2e 10 ae 36  26 6d c0 a8  13 d0                       ...6&m....      
+
+
+2024-08-16 18:19:02 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,48,48) range.
+JMemory: JMemory@1a968ac2384class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=8900)
+********************************************************************************
+0000:*bc 09 1b a9  c4 f0 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 3d                       .........=      
+
+
+2024-08-16 18:19:02 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,56,56) range.
+JMemory: JMemory@1a968ac2384class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=8900)
+********************************************************************************
+0000:*2e 10 ae 36  26 6d bc 09  1b a9 c4 f0  08 06 00 01    ...6&m..........
+0010: 08 00 06 04  00 02 bc 09  1b a9 c4 f0  c0 a8 13 3d    ...............=
+0020: 2e 10 ae 36  26 6d c0 a8  13 d0                       ...6&m....      
+
+
+2024-08-16 18:19:02 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 88 flow
+2024-08-16 18:19:02 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 87 flow
+2024-08-16 18:19:02 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 102 flow
+2024-08-16 18:19:02 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 102 flow
+2024-08-16 18:19:02 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on temp\pcap\output_636fc2c1-38ca-4d8b-a9a5-2c91a7baf20b.pcap
+2024-08-16 18:24:56 INFO  cic.cs.unb.ca.ifm.Cmd    You select: temp\pcap\output_0b14606b-db0e-4f4e-9b44-44270f20c733.pcap
+2024-08-16 18:24:56 INFO  cic.cs.unb.ca.ifm.Cmd    Out folder: temp\csv
+2024-08-16 18:24:56 INFO  cic.cs.unb.ca.ifm.Cmd    CICFlowMeter received 1 pcap file
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 5 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 10 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 29 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 29 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 37 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 37 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 49 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 61 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 68 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 72 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 73 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 74 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 83 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 83 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,48,48) range.
+JMemory: JMemory@1639bb9ace0class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=20128)
+********************************************************************************
+0000:*bc 09 1b a9  c4 f0 2e 10  ae 36 26 6d  08 06 00 01    .........6&m....
+0010: 08 00 06 04  00 01 2e 10  ae 36 26 6d  c0 a8 13 d0    .........6&m....
+0020: 00 00 00 00  00 00 c0 a8  13 3d                       .........=      
+
+
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Invalid [0,56,56) range.
+JMemory: JMemory@1639bb9ace0class org.jnetpcap.protocol.network.Ip4: size=20 bytes
+JMemory: owner=nio.JMemoryPool$Block.class(size=32768/offset=20128)
+********************************************************************************
+0000:*2e 10 ae 36  26 6d bc 09  1b a9 c4 f0  08 06 00 01    ...6&m..........
+0010: 08 00 06 04  00 02 bc 09  1b a9 c4 f0  c0 a8 13 3d    ...............=
+0020: 2e 10 ae 36  26 6d c0 a8  13 d0                       ...6&m....      
+
+
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 94 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 94 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 122 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 134 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 133 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 132 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 134 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 134 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 134 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 134 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 134 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 134 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 135 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 137 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 138 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 139 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 139 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 140 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 140 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 142 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 141 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 143 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 144 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 145 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 150 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 150 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 149 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 148 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 147 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 148 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 147 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 146 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 146 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 145 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 144 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 143 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 145 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 144 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 144 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 148 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 150 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 152 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 154 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 156 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 157 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 158 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 161 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 163 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 162 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 162 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 168 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 170 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 172 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 173 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 173 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 180 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 184 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 183 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 182 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 183 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 183 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 183 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 185 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 187 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 189 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 190 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 190 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 191 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 190 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 190 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 192 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 192 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 194 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 197 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 198 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 198 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 200 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 200 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 199 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 199 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 202 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 202 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.FlowGenerator    FlagFIN current has 203 flow
+2024-08-16 18:24:56 DEBUG cic.cs.unb.ca.jnetpcap.PacketReader    Read All packets on temp\pcap\output_0b14606b-db0e-4f4e-9b44-44270f20c733.pcap

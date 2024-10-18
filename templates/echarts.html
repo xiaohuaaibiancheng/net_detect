@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>后台管理系统-HTML5后台管理系统</title>
+<meta name="keywords" content="设置关键词..." />
+<meta name="description" content="设置描述..." />
+<meta name="author" content="bootstrapMB" />
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<link rel="icon" href="images/icon/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="../static/css/style.css" />
+<script src="../static/javascript/jquery.js"></script>
+<script src="../static/javascript/plug-ins/customScrollbar.min.js"></script>
+<script src="../static/javascript/plug-ins/echarts.min.js"></script>
+<script src="../static/javascript/plug-ins/layerUi/layer.js"></script>
+<script src="../static/editor/ueditor.config.js"></script>
+<script src="../static/editor/ueditor.all.js"></script>
+<script src="../static/javascript/plug-ins/pagination.js"></script>
+<script src="../static/javascript/public.js"></script>
+<style>
+  /* 确保每个图表都有足够的空间 */
+  #tongji1, #tongji2 {
+      width: 100%;
+      height: 400px;
+      margin-bottom: 60px; /* 增加底部间距来分隔图表 */
+  }
+  .panel {
+      margin-bottom: 40px; /* 确保面板之间有间距 */
+  }
+  .main-cont {
+      padding-bottom: 60px; /* 增加内容底部的填充，以确保最后一个图表不被裁剪 */
+  }
+</style>
+</head>
+<body>
+<div class="main-wrap">
+    <div class="side-nav">
+        <div class="side-logo">
+            <div class="logo">
+                <span class="logo-ico">
+                    <i class="i-l-1"></i>
+                    <i class="i-l-2"></i>
+                    <i class="i-l-3"></i>
+                </span>
+                <strong>网络安全智能分析及溯源系统</strong>
+            </div>
+        </div>
+
+        <nav class="side-menu content mCustomScrollbar" data-mcs-theme="minimal-dark">
+            <h2>
+                <a href="{{ url_for('home')}}" class="InitialPage"><i class="icon-dashboard"></i>主页</a>
+            </h2>
+            <ul>
+                <li>
+                    <dl>
+                        <dt>
+                            <i class="icon-inbox"></i>流量采集<i class="icon-angle-right"></i>
+                        </dt>
+                        <dd>
+                            <a href="{{ url_for('button_page')}}">实时采集流量</a>
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>
+                            <i class="icon-table"></i>威胁检测与分析<i class="icon-angle-right"></i>
+                        </dt>
+                        <dd>
+                            <a href="{{ url_for('table_page')}}">流量判别</a>
+                        </dd>
+                        <dd>
+							<a href="{{ url_for('IPsouce_page')}}">溯源威胁流量IP</a>
+						</dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>
+                            <i class="icon-bar-chart"></i>可视化展示判别结果<i class="icon-angle-right"></i>
+                        </dt>
+                        <dd>
+                            <a href="{{ url_for('echarts_page')}}">安全威胁报告图表</a>
+                        </dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>
+                            <i class="icon-laptop"></i>安全建议模块<i class="icon-angle-right"></i>
+                        </dt>
+                        <dd>
+                            <a href="{{ url_for('text_panel_page')}}">生成安全建议</a>
+                        </dd>
+                    </dl>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    </div>
+    <div class="content-wrap">
+        <header class="top-hd">
+            <div class="hd-lt">
+                <a class="icon-reorder"></a>
+            </div>
+            <div class="hd-rt">
+                <ul>
+                    <li>
+                        <a href="{{ url_for('home')}}" target="_blank"><i class="icon-home"></i>回到首页</a>
+                    </li>
+                    <li>
+                        <a><i class="icon-user"></i>管理员:<em>WUT</em></a>
+                    </li>
+                    <li>
+                        <a href="{{ url_for('login')}}" id="JsSignOut"><i class="icon-signout"></i>安全退出</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <main class="main-cont content mCustomScrollbar">
+            <div class="page-wrap">
+                <!--开始::内容-->
+                <section class="page-hd">
+                    <header>
+                        <h2 class="title">安全威胁判别结果可视化示例</h2>
+                        <p class="title-description">
+                            可视化展示安全威胁类型、攻击手段、攻击IP地址溯源等威胁报告结果
+                        </p>
+                    </header>
+                    <hr>
+                </section>
+                <div class="panel panel-default">
+                    <div class="panel-hd">划分序列图</div>
+                    <div class="panel-bd" style="height:600px; width:100%; overflow-x:auto;"> <!-- 调整高度和宽度，并添加横向滚动条 -->
+                        <div id="tongji1" style="height:100%; width:100%; white-space: nowrap; display: flex; justify-content: center; align-items: center;"></div><!-- 确保内部div也自适应 -->
+                        <script type="text/javascript">
+                            function loadSequenceData() {
+                                fetch('/plot_sequence_data', {
+                                    method: 'POST'
+                                })
+                                .then(response => response.json())
+                                .then(data => {
+                                    if (data.img_tag) {
+                                        // 设置图片尺寸，并使其能够在宽度方向上滚动
+                                        let imgTag = data.img_tag.replace(/width="\d+"/, 'width="100%"').replace(/height="\d+"/, 'height="100%"');
+                                        document.getElementById('tongji1').innerHTML = `<div style="width:auto; display:inline-block;">${imgTag}</div>`;
+                                    } else {
+                                        alert('生成图像时出错。');
+                                    }
+                                })
+                                .catch(error => {
+                                    alert('生成图像失败。');
+                                });
+                            }
+                            document.addEventListener('DOMContentLoaded', loadSequenceData);
+                        </script>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-hd">预测类别图</div>
+                    <div class="panel-bd" style="height:600px; width:100%; display:flex; justify-content:center; align-items:center;"> <!-- 调整高度和宽度 -->
+                        <div id="tongji2" style="height:100%; width:100%; display:flex; justify-content:center; align-items:center;"></div> <!-- 确保内部div也自适应 -->
+                        <script type="text/javascript">
+                            function loadPredictionDistribution() {
+                                fetch('/plot_prediction_distribution', {
+                                    method: 'POST'
+                                })
+                                .then(response => response.json())
+                                .then(data => {
+                                    if (data.img_tag) {
+                                        // 调整img_tag尺寸并居中显示
+                                        let imgTag = data.img_tag.replace(/width="\d+"/, 'width="100%"').replace(/height="\d+"/, 'height="100%"');
+                                        document.getElementById('tongji2').innerHTML = `<div style="display:flex; justify-content:center; align-items:center; width:100%; height:100%;">${imgTag}</div>`;
+                                    } else {
+                                        alert('生成图像时出错。');
+                                    }
+                                })
+                                .catch(error => {
+                                    alert('生成图像失败。');
+                                });
+                            }
+                            document.addEventListener('DOMContentLoaded', loadPredictionDistribution);
+                        </script>
+                    </div>
+                </div>
+                <!--开始::结束-->
+            </div>
+        </main>
+        <footer class="btm-ft">
+        </footer>
+    </div>
+</div>
+
+<div class="mask"></div>
+<div class="dialog">
+    <div class="dialog-hd">
+        <strong class="lt-title">标题</strong>
+        <a class="rt-operate icon-remove JclosePanel" title="关闭"></a>
+    </div>
+    <div class="dialog-bd">
+        <!--start::-->
+        <p>这里是基础弹窗,可以定义文本信息，HTML信息这里是基础弹窗,可以定义文本信息，HTML信息。</p>
+        <!--end::-->
+    </div>
+    <div class="dialog-ft">
+        <button class="btn btn-info JyesBtn">确认</button>
+        <button class="btn btn-secondary JnoBtn">关闭</button>
+    </div>
+</div>
+</body>
+</html>

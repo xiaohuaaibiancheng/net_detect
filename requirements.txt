@@ -1,0 +1,29 @@
+
+
+#pip config set global.index-url https://ecloud.10086.cn/api/query/developer/nexus/repository/python-sdk/simple
+ecloudsdkecs==1.1.7
+ecloudsdkcscenter==1.0.5
+
+
+
+# pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+
+Flask==3.0.3
+joblib==1.4.2
+matplotlib==3.8.2
+numpy==1.26.4
+pandas==2.2.2
+pyngrok==7.1.6
+pyshark==0.6
+Requests==2.32.3
+scapy==2.5.0
+seaborn==0.13.2
+reportlab==4.2.2
+PyEmail==0.0.1
+
+waitress==3.0.0
+scikit-learn==1.3.0
+
+#torch version with GPU or CPU
+#You'll need to install it manually
+#like: pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121

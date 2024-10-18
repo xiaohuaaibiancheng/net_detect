@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        html, body {
+            height: 100%;
+            font-family: 'Arial', sans-serif;
+            background-image: linear-gradient(to bottom right, rgb(114, 135, 254), rgb(130, 88, 186));
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .login-container {
+            width: 600px;
+            background-color: rgb(95, 76, 194);
+            border-radius: 15px;
+            box-shadow: 0 10px 50px rgba(59, 45, 159, 0.6);
+            overflow: hidden;
+            display: flex;
+            transform: translateY(50%);
+            animation: slideIn 1s forwards;
+        }
+        .left-container, .right-container {
+            padding: 60px;
+            color: #fff;
+        }
+        .left-container {
+            background-image: linear-gradient(to bottom right, rgb(118, 76, 163), rgb(92, 103, 211));
+            flex: 2;
+        }
+        .right-container {
+            background: rgb(130, 88, 186);
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .title span {
+            border-bottom: 3px solid rgb(237, 221, 22);
+        }
+        .input-container {
+            margin: 20px 0;
+        }
+        input {
+            background: none;
+            border: none;
+            border-bottom: 1px solid rgb(199, 191, 219);
+            color: #fff;
+            display: block;
+            width: 100%;
+            padding: 10px 0;
+            margin-bottom: 20px;
+            transition: border-color 0.3s;
+        }
+        input:focus {
+            border-bottom-color: #fff;
+        }
+        ::placeholder {
+            color: rgb(199, 191, 219);
+        }
+        .action-container {
+            display: flex;
+            justify-content: center;
+        }
+        button {
+            background-color: rgb(237, 221, 22);
+            border: none;
+            border-radius: 20px;
+            color: rgb(95, 76, 194);
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        button:hover {
+            background-color: rgb(255, 240, 31);
+            color: rgb(95, 76, 194);
+        }
+        .regist-container {
+            text-align: center;
+        }
+        .regist-link {
+            color: #fff;
+            font-size: 18px;
+            text-decoration: none;
+            border-bottom: 3px solid rgb(237, 221, 22);
+            transition: color 0.3s;
+        }
+        .regist-link:hover {
+            color: rgb(237, 221, 22);
+        }
+        @keyframes slideIn {
+            0% {
+                transform: translateY(50%);
+            }
+            100% {
+                transform: translateY(0%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <div class="left-container">
+            <div class="title"><span>注册</span></div>
+            <form id="registrationForm">
+                <div class="input-container">
+                    <input type="text" name="username" placeholder="选择用户名" required>
+                    <input type="password" name="password" placeholder="创建密码" required>
+                    <input type="password" name="confirm_password" placeholder="确认密码" required>
+                    <input type="text" name="email" placeholder="请输入邮箱" required>
+                </div>
+                <div class="action-container">
+                    <button type="submit">注册</button>
+                </div>
+            </form>
+        </div>
+        <div class="right-container">
+            <div class="regist-container">
+                <a href="{{ url_for('login')}}" class="regist-link">登录</a>
+            </div>
+        </div>
+    </div>
+
+<script>
+    document.getElementById('registrationForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        const username = event.target.username.value;
+        const password = event.target.password.value;
+        const confirmPassword = event.target.confirm_password.value;
+        const email = event.target.email.value;
+
+        if (password !== confirmPassword) {
+            alert("Passwords do not match!");
+            return;
+        }
+
+        fetch('/register', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ username, password, email})
+        })
+        .then(response => {
+            const isOk = response.ok;
+            return response.json().then(data => {
+                return { data, isOk };
+            });
+        })
+        .then(({ data, isOk }) => {
+            alert(data.message);
+            if (isOk) {
+                window.location.href = data.redirect;
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    });
+</script>
+
+</body>
+</html>
+
